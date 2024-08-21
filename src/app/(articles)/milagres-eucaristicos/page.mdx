@@ -1,8 +1,21 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import { AspectRatio } from "@/components/ui/aspect-ratio"
 
 <h1 className={`text-3xl`}> 
   **Dez milagres Eucarísticos**
 </h1>
+
+<AspectRatio ratio={16 / 9} className="bg-muted shadow-md w-full max-h-[300px]">
+  <Image
+    src="/Jesus.png"
+    alt="Photo by Drew Beamer"
+    fill
+    className="rounded-md object-cover"
+  />
+  <h1 className="text-white">teste</h1>
+</AspectRatio>
+13/08/2025 - <Link href="https://www.cancaonova.com/"><b>@cancaonova.com</b></Link>
 
 A revista "Jesus", das Edições Paulinas de Roma, publicou uma matéria do escritor Antonio Gentili, em abril de 1983, pp. 64-67, na qual apresenta uma resenha de milagres Eucarísticos. Há tempos, foi traçado um "Mapa Eucarístico", que registra o local e a data de mais de 130 milagres, metade dos quais ocorridos na Itália. São muitíssimos os milagres Eucarísticos no mundo todo. Por exemplo, Marthe Robin, uma francesa, é um milagre Eucarístico vivo, pois se alimentou durante mais de quarenta anos só de Eucaristia. Teresa Newmann, da Alemanha, durante mais de 36 anos também se alimentou só do Corpo de Cristo.
 
